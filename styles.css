@@ -53,7 +53,7 @@ nav ul li {
 .menu-item a {
   text-decoration: none;
   color: white;
-  margin-right: 30px;
+  margin-right: 35px;
 }
 
 .menu-item a:hover {
@@ -414,7 +414,8 @@ footer {
   align-content: center;
   background-color: rgb(255, 154, 60);
   padding: 0;
-  padding-left: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin: 0;
   color: white;
   clear: both;
@@ -486,7 +487,7 @@ footer {
 }
 
 footer hr {
-  width: 95%;
+  width: 100%;
   margin: 20px 0;
 }
 
@@ -635,6 +636,14 @@ footer hr {
     text-align: center;
   }
 }
+@media screen and (max-width: 500px) {
+  nav ul {
+    padding-left: 30px;
+  }
+  .menu-item a {
+    margin-right: 25px;
+  }
+}
 
 @media screen and (max-width: 399px) {
   body {
@@ -647,7 +656,7 @@ footer hr {
   header,
   nav,
   footer {
-    width: 400px;
+    width: 100%;
   }
 
   .flex-container {
@@ -667,12 +676,12 @@ footer hr {
   .main-content {
     width: 370px;
     padding: 26px;
-    order: 2;
+    order: 1;
   }
 
   .sidebar {
     width: 370px;
-    order: 1;
+    order: 2;
   }
 
   .my-profession {
