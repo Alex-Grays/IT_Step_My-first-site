@@ -242,6 +242,9 @@ nav ul li {
   margin-bottom: 40px;
 }
 
+.cl-br {
+  display: none;
+}
 /* Work experience */
 
 .work-exp {
@@ -678,9 +681,14 @@ footer hr {
   }
 
   .my-projects-list {
-    padding-right: 10px;
-    min-width: 325px;
+    padding-right: 5px;
+    min-width: 360px;
   }
+
+  .cl-br {
+    display: block;
+  }
+
   .sidebar {
     width: 370px;
     order: 2;
