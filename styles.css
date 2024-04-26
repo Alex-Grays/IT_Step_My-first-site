@@ -500,7 +500,7 @@ footer hr {
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 885px) {
+@media screen and (min-width: 601px) and (max-width: 885px) {
   .flex-container {
     flex-direction: column;
     padding-left: 10px;
@@ -557,7 +557,7 @@ footer hr {
   }
 }
 
-@media screen and (min-width: 400px) and (max-width: 600px) {
+@media screen and (min-width: 401px) and (max-width: 600px) {
   body {
     width: 100%;
     max-width: 600px;
@@ -581,7 +581,7 @@ footer hr {
     width: 100%;
     min-width: 400px;
     max-width: 410px;
-    margin-left: 7px;
+    margin-left: 10px;
     margin-right: 15px;
   }
 
@@ -657,7 +657,7 @@ footer hr {
     min-width: 300px;
     max-width: 370px;
     width: 100%;
-    margin-left: 7px;
+    margin-left: 10px;
     margin-right: 15px;
   }
 
@@ -678,7 +678,7 @@ footer hr {
   }
 
   .my-projects-list {
-    min-width: 310px;
+    min-width: 308px;
   }
   .sidebar {
     width: 370px;
