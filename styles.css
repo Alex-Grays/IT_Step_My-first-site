@@ -527,21 +527,18 @@ footer hr {
   .main-content {
     width: 370px;
     padding: 40px;
-    order: ;
+    order: 1;
   }
 
   .sidebar {
     width: 370px;
-    order: 3;
-  }
-  .sidebar img {
-    order: 1;
+    order: 2;
   }
 
   .right-side {
     width: 100%;
     text-align: center;
-    order: 4;
+    order: 3;
     margin-left: 0;
   }
 
