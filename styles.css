@@ -663,7 +663,7 @@ footer hr {
 
   .main-content {
     width: 370px;
-    padding: 40px;
+    padding: 26px;
     order: 1;
   }
   .my-profession {
@@ -678,7 +678,8 @@ footer hr {
   }
 
   .my-projects-list {
-    min-width: 308px;
+    padding-right: 5px;
+    min-width: 315px;
   }
   .sidebar {
     width: 370px;
